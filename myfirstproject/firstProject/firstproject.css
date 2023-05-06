@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(s.jpg);
+    background-position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.navbar{
+    background-color: rgb(35, 20, 20); 
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 5%;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex; 
+}
+
+.navbar ul li{
+  padding: 10px 30px;
+  position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.navbar ul li a:hover{
+    color: red;
+}
+
+/* styling dropdown begin */
+.fas{
+    float: right;
+    margin: 10px;
+    padding-top: 3px;
+}
+
+.dropdown-menu{
+    display: none;
+}
+
+.navbar ul li:hover .dropdown-menu{
+    display:block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+
+}
+
+.navbar ul li:hover .dropdown-menu ul{
+    display: block;
+    margin: 10px;
+}
+
+.navbar ul li:hover .dropdown-menu ul li{
+    width: 150px;
+    padding: 10px;
+}
+
+
+/* styling dropdown ends */
+
+
+.logo{
+    color: white;
+    font-size: 35px;
+}
+.logo span{
+    color: red;
+    font-size: 35px;
+}
+/* form styling begin */
+.form{
+    width:50%;
+    height: 60%;
+    background:linear-gradient(90deg, #1dd2ff35, #cef6f6);
+    border-radius:10px ;
+    box-shadow: 3px 5px 3px gray;
+    margin: 10% 30%;
+    font-family: gill sans;
+
+
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+input[type="text"], [type="password"], select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border:1px solid #0000;
+    margin:2px 0;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    background-color:rgb(240, 89, 8);
+    width:80%;
+    padding:12px;
+    border-radius:20px;
+    border:1px solid #ccc;
+    margin:50px;
+    box-sizing: border-box;
+    color:white;
+    font-weight:bold;
+    font-size:18px;
+}
+
+input[type=submit]:hover {
+    background-color:darkblue;
+    font-size:19px;
+    cursor:pointer;
+}
+
+/* form styling end */
+
+
+

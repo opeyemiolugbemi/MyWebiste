@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(127, 255, 223);
+}
+.form{
+    width: 60%;
+    height: 60%;
+    background: linear-gradient(90deg, black, #3422);
+    border-radius: 10px;
+    box-shadow: 4px 6px 4px blanchedalmond; 
+    margin: 10% 30%;
+    font-style: ;
+}
+h1{
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    font-weight:bold;
+}
+label{
+    font-size: 20px;
+    font-weight:bold;
+    color: white;
+}
+input[type="text"],[type="password"], select{
+    width: 100%;
+    padding: 13px;
+    border-radius: 6px;
+    border: 1px white; 
+    
+    
+}
