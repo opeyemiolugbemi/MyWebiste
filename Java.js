@@ -1,5 +1,5 @@
-var firstname = 'Adedotun'
-var lastname = 'Adetunji'
+var firstname = 'Opeyemi'
+var lastname = 'Olugbemi'
 var fullname = firstname + " " + lastname
 let age = prompt('enter your age')
 if (age >= 18 && age <= 50 ) {
@@ -7,11 +7,11 @@ if (age >= 18 && age <= 50 ) {
     document.getElementById('test').style.color = 'green'
     document.getElementById('test').style.backgroundColor = 'orange'
 }else if(age >= 51 && age <= 70 ){
-    document.getElementById('test').innerHTML = 'welcome' + fullname + " <br> You can Vote at the aged category";
+    document.getElementById('test').innerHTML = 'welcome ' + fullname + " <br> You can Vote at the aged category";
     document.getElementById('test').style.color = 'blue'
     document.getElementById('test').style.backgroundColor = 'magenta'
 }else if(age > 70) {
-    document.getElementById('test').innerHTML = 'welcome' + fullname + " <br> You can Vote at the aged category";
+    document.getElementById('test').innerHTML = 'welcome ' + fullname + " <br> You can Vote at the aged category";
     document.getElementById('test').style.color = 'yelow'
     document.getElementById('test').style.backgroundColor = 'purple'
 }
